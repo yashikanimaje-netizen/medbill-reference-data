@@ -14,41 +14,37 @@ export const FairPriceBadge: React.FC<FairPriceBadgeProps> = ({
   showIcon = true
 }) => {
   let displayLabel = label;
-  let bgClass = '';
-  let textClass = '';
+  let styleClasses = '';
   let icon = '';
 
   switch (status) {
     case 'fair':
       displayLabel = displayLabel || '✓ FAIRLY CHARGED';
-      bgClass = 'bg-emerald-600';
-      textClass = 'text-white';
+      styleClasses = 'bg-emerald-50 text-emerald-700 border border-emerald-200';
       icon = '✓';
       break;
     case 'moderate':
       displayLabel = displayLabel || '⚠️ MODERATELY OVERCHARGED';
-      bgClass = 'bg-amber-500';
-      textClass = 'text-white';
+      styleClasses = 'bg-amber-50 text-amber-700 border border-amber-200';
       icon = '⚠️';
       break;
     case 'overpriced':
     default:
       displayLabel = displayLabel || '🚨 HEAVILY OVERCHARGED';
-      bgClass = 'bg-rose-600';
-      textClass = 'text-white';
+      styleClasses = 'bg-rose-50 text-rose-700 border border-rose-200';
       icon = '🚨';
       break;
   }
 
   const sizeClasses = {
     sm: 'text-[10px] px-2 py-0.5 font-bold',
-    md: 'text-[11px] px-2.5 py-1 font-black tracking-wide',
+    md: 'text-[11px] px-2.5 py-1 font-bold tracking-wide',
     lg: 'text-xs px-3 py-1.5 font-black tracking-wide'
   }[size];
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-md shadow-sm uppercase ${bgClass} ${textClass} ${sizeClasses}`}
+      className={`inline-flex items-center gap-1.5 rounded-lg border uppercase ${styleClasses} ${sizeClasses}`}
       role="status"
       aria-label={`Billing status: ${displayLabel}`}
     >
