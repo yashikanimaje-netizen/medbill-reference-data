@@ -1,0 +1,179 @@
+[
+  {
+    "cghs_code": "CGHS-140",
+    "test_name": "MRI Knee Joint (Plain)",
+    "category": "Radiology",
+    "cghs_benchmark_inr": 2500,
+    "centers": [
+      {
+        "center_name": "Narayana Diagnostics & Imaging",
+        "city": "Bengaluru",
+        "type": "Independent Imaging Center",
+        "accreditation": "NABL / NABH",
+        "price_inr": 2800,
+        "markup_multiplier": "1.1x CGHS",
+        "verdict": "Fair Price",
+        "verdict_type": "fair",
+        "charge_status": "fair",
+        "charge_label": "✓ FAIRLY CHARGED",
+        "distance": "2.4 km away"
+      },
+      {
+        "center_name": "Dr Lal PathLabs & MRI Hub",
+        "city": "Delhi NCR",
+        "type": "Standalone Diagnostic Chain",
+        "accreditation": "NABL",
+        "price_inr": 3500,
+        "markup_multiplier": "1.4x CGHS",
+        "verdict": "Fair Price",
+        "charge_status": "fair",
+        "charge_label": "✓ FAIRLY CHARGED",
+        "distance": "3.1 km away"
+      },
+      {
+        "center_name": "Apollo Clinic & Diagnostic Center",
+        "city": "Bengaluru",
+        "type": "Outpatient Clinic",
+        "accreditation": "NABH",
+        "price_inr": 5200,
+        "markup_multiplier": "2.1x CGHS",
+        "verdict": "Moderate Markup",
+        "charge_status": "moderate",
+        "charge_label": "⚠️ MODERATELY OVERCHARGED",
+        "distance": "4.0 km away"
+      },
+      {
+        "center_name": "Max Super Speciality Hospital",
+        "city": "Delhi NCR",
+        "type": "Corporate Tertiary Hospital",
+        "accreditation": "NABH",
+        "price_inr": 9500,
+        "markup_multiplier": "3.8x CGHS",
+        "verdict": "Heavily Overpriced",
+        "charge_status": "overpriced",
+        "charge_label": "🚨 HEAVILY OVERCHARGED",
+        "distance": "6.5 km away"
+      }
+    ]
+  },
+  {
+    "cghs_code": "CGHS-120",
+    "test_name": "Ultrasound Whole Abdomen and Pelvis (USG)",
+    "category": "Radiology",
+    "cghs_benchmark_inr": 500,
+    "centers": [
+      {
+        "center_name": "SRL Diagnostics & Sonography Center",
+        "city": "Mumbai",
+        "type": "Diagnostic Center",
+        "accreditation": "NABL",
+        "price_inr": 750,
+        "markup_multiplier": "1.5x CGHS",
+        "verdict": "Fair Price",
+        "charge_status": "fair",
+        "charge_label": "✓ FAIRLY CHARGED",
+        "distance": "1.8 km away"
+      },
+      {
+        "center_name": "Metropolis Healthcare",
+        "city": "Mumbai",
+        "type": "Diagnostic Chain",
+        "accreditation": "NABL",
+        "price_inr": 950,
+        "markup_multiplier": "1.9x CGHS",
+        "verdict": "Moderate Markup",
+        "charge_status": "moderate",
+        "charge_label": "⚠️ MODERATELY OVERCHARGED",
+        "distance": "3.5 km away"
+      },
+      {
+        "center_name": "Kokilaben Dhirubhai Ambani Hospital",
+        "city": "Mumbai",
+        "type": "Corporate Hospital",
+        "accreditation": "NABH",
+        "price_inr": 2600,
+        "markup_multiplier": "5.2x CGHS",
+        "verdict": "Heavily Overpriced",
+        "charge_status": "overpriced",
+        "charge_label": "🚨 HEAVILY OVERCHARGED",
+        "distance": "5.2 km away"
+      }
+    ]
+  },
+  {
+    "cghs_code": "CGHS-035",
+    "test_name": "Lipid Profile (Cholesterol Panel)",
+    "category": "Pathology",
+    "cghs_benchmark_inr": 230,
+    "centers": [
+      {
+        "center_name": "Thyrocare Technologies",
+        "city": "Pan-India",
+        "type": "Automated Lab Hub",
+        "accreditation": "NABL",
+        "price_inr": 350,
+        "markup_multiplier": "1.5x CGHS",
+        "verdict": "Fair Price",
+        "charge_status": "fair",
+        "charge_label": "✓ FAIRLY CHARGED",
+        "distance": "Home Sample Collection"
+      },
+      {
+        "center_name": "Dr Lal PathLabs",
+        "city": "Delhi NCR",
+        "type": "Diagnostic Chain",
+        "accreditation": "NABL",
+        "price_inr": 550,
+        "markup_multiplier": "2.4x CGHS",
+        "verdict": "Moderate Markup",
+        "charge_status": "moderate",
+        "charge_label": "⚠️ MODERATELY OVERCHARGED",
+        "distance": "1.2 km away"
+      },
+      {
+        "center_name": "Medanta - The Medicity",
+        "city": "Gurugram",
+        "type": "Corporate Hospital",
+        "accreditation": "NABH",
+        "price_inr": 1350,
+        "markup_multiplier": "5.8x CGHS",
+        "verdict": "Heavily Overpriced",
+        "charge_status": "overpriced",
+        "charge_label": "🚨 HEAVILY OVERCHARGED",
+        "distance": "4.8 km away"
+      }
+    ]
+  },
+  {
+    "cghs_code": "CGHS-130",
+    "test_name": "CT Scan Head / Brain (Plain)",
+    "category": "Radiology",
+    "cghs_benchmark_inr": 1100,
+    "centers": [
+      {
+        "center_name": "City Imaging & Scanning Hub",
+        "city": "Bengaluru",
+        "type": "Specialized CT/MRI Center",
+        "accreditation": "NABH",
+        "price_inr": 1500,
+        "markup_multiplier": "1.4x CGHS",
+        "verdict": "Fair Price",
+        "charge_status": "fair",
+        "charge_label": "✓ FAIRLY CHARGED",
+        "distance": "2.9 km away"
+      },
+      {
+        "center_name": "Manipal Hospital",
+        "city": "Bengaluru",
+        "type": "Corporate Hospital",
+        "accreditation": "NABH",
+        "price_inr": 4500,
+        "markup_multiplier": "4.1x CGHS",
+        "verdict": "Heavily Overpriced",
+        "charge_status": "overpriced",
+        "charge_label": "🚨 HEAVILY OVERCHARGED",
+        "distance": "5.0 km away"
+      }
+    ]
+  }
+]

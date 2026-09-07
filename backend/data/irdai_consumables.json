@@ -1,0 +1,82 @@
+[
+  {
+    "item_code": "IRDAI-CON-001",
+    "item_name": "Surgical / Examination Gloves",
+    "category": "Personal Protective Equipment",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": true,
+    "typical_hospital_bill_range_inr": "₹500 - ₹3,500",
+    "is_hospital_overhead": true,
+    "patient_advice": "Non-payable by standard insurance. If billed excessively (e.g. 50 pairs for a 2-day stay), demand an itemized usage log from the nursing desk."
+  },
+  {
+    "item_code": "IRDAI-CON-002",
+    "item_name": "PPE Kits / Gowns / Masks",
+    "category": "Personal Protective Equipment",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": true,
+    "typical_hospital_bill_range_inr": "₹1,200 - ₹6,000",
+    "is_hospital_overhead": true,
+    "patient_advice": "In non-infectious routine cases, hospitals cannot bill multiple PPE kits per day. Covered if you have a Consumables Rider."
+  },
+  {
+    "item_code": "IRDAI-CON-003",
+    "item_name": "Admission Kit / Welcome Kit / Toiletries",
+    "category": "Administrative & Comfort",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": false,
+    "typical_hospital_bill_range_inr": "₹500 - ₹2,000",
+    "is_hospital_overhead": true,
+    "patient_advice": "Completely non-payable by insurers. You have the right to refuse the optional welcome kit upon hospital admission."
+  },
+  {
+    "item_code": "IRDAI-CON-004",
+    "item_name": "Hand Sanitizer / Spirit / Betadine Solution",
+    "category": "Antiseptic & Disinfectant",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": true,
+    "typical_hospital_bill_range_inr": "₹300 - ₹1,500",
+    "is_hospital_overhead": true,
+    "patient_advice": "General disinfectants are considered hospital infrastructure overhead, not an individual patient prescription."
+  },
+  {
+    "item_code": "IRDAI-CON-005",
+    "item_name": "Syringes, Needles & Cannula (IV Cannula)",
+    "category": "Medical Consumables",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": true,
+    "typical_hospital_bill_range_inr": "₹400 - ₹2,500",
+    "is_hospital_overhead": false,
+    "patient_advice": "Disallowed under standard policies but fully covered under Consumables Add-on / Care Shield / Star Care riders."
+  },
+  {
+    "item_code": "IRDAI-CON-006",
+    "item_name": "Documentation Charges / Medical Record Fee / Admin Charges",
+    "category": "Hospital Overhead",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": false,
+    "typical_hospital_bill_range_inr": "₹500 - ₹3,000",
+    "is_hospital_overhead": true,
+    "patient_advice": "Illegal under Consumer Protection Act precedents to charge patients for generating their own medical bill and discharge summary."
+  },
+  {
+    "item_code": "IRDAI-CON-007",
+    "item_name": "Thermometer / Spirometer",
+    "category": "Patient Care Devices",
+    "is_payable_standard_policy": false,
+    "payable_with_consumables_rider": true,
+    "typical_hospital_bill_range_inr": "₹400 - ₹1,200",
+    "is_hospital_overhead": false,
+    "patient_advice": "If billed, ensure the hospital hands over the physical device to you upon discharge, as you purchased it."
+  },
+  {
+    "item_code": "IRDAI-CON-008",
+    "item_name": "Dietitian Charges / Patient Food & Beverage",
+    "category": "Nutrition & Dietary",
+    "is_payable_standard_policy": true,
+    "payable_with_consumables_rider": true,
+    "typical_hospital_bill_range_inr": "₹500 - ₹2,500",
+    "is_hospital_overhead": true,
+    "patient_advice": "Patient diet prescribed by doctor IS payable as part of room rent. Attendant/visitor food is strictly non-payable."
+  }
+]

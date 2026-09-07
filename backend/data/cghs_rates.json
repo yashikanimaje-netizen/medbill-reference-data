@@ -1,0 +1,232 @@
+[
+  {
+    "cghs_code": "CGHS-001",
+    "procedure_name": "Consultation OPD - General / Specialist",
+    "category": "Consultation",
+    "cghs_nabh_rate_inr": 350,
+    "cghs_non_nabh_rate_inr": 300,
+    "private_hospital_typical_rate_inr": 1200,
+    "plain_english": "Outpatient doctor consultation fee for a specialist or super-specialist.",
+    "billing_alert": "Private hospitals often charge ₹1,000 to ₹2,500. Under CGHS empanelment, ceiling is ₹350."
+  },
+  {
+    "cghs_code": "CGHS-002",
+    "procedure_name": "Consultation Inpatient (IPD) - Daily visit by Specialist",
+    "category": "Consultation",
+    "cghs_nabh_rate_inr": 350,
+    "cghs_non_nabh_rate_inr": 300,
+    "private_hospital_typical_rate_inr": 2000,
+    "plain_english": "Doctor's daily bedside visit while admitted in the hospital.",
+    "billing_alert": "Watch out for multiple doctors billing daily visits on the same bill without documented consultation notes."
+  },
+  {
+    "cghs_code": "CGHS-010",
+    "procedure_name": "ICU Bed Charges (Per Day, including Monitoring & Nursing)",
+    "category": "Inpatient & Room Rent",
+    "cghs_nabh_rate_inr": 5400,
+    "cghs_non_nabh_rate_inr": 4500,
+    "private_hospital_typical_rate_inr": 25000,
+    "plain_english": "Intensive Care Unit (ICU/ICCU) room rent per day.",
+    "billing_alert": "CGHS ICU rate is ALL-INCLUSIVE of monitor, nursing charges, and duty doctor charges. Private hospitals unbundle and charge nursing + monitor separately."
+  },
+  {
+    "cghs_code": "CGHS-011",
+    "procedure_name": "General Ward Bed Charges (Per Day)",
+    "category": "Inpatient & Room Rent",
+    "cghs_nabh_rate_inr": 1500,
+    "cghs_non_nabh_rate_inr": 1000,
+    "private_hospital_typical_rate_inr": 4500,
+    "plain_english": "Standard shared room or general ward bed charge per day.",
+    "billing_alert": "Check for IRDAI proportionate deduction if your insurance policy has a 1% room rent cap."
+  },
+  {
+    "cghs_code": "CGHS-012",
+    "procedure_name": "Semi-Private Room Bed Charges (Per Day)",
+    "category": "Inpatient & Room Rent",
+    "cghs_nabh_rate_inr": 3000,
+    "cghs_non_nabh_rate_inr": 2000,
+    "private_hospital_typical_rate_inr": 8500,
+    "plain_english": "Twin-sharing room hospital bed charge per day.",
+    "billing_alert": "Nursing and RMO charges must not exceed standard tariff limits."
+  },
+  {
+    "cghs_code": "CGHS-030",
+    "procedure_name": "Complete Blood Count (CBC / Hemogram with ESR)",
+    "category": "Laboratory/Pathology",
+    "cghs_nabh_rate_inr": 155,
+    "cghs_non_nabh_rate_inr": 135,
+    "private_hospital_typical_rate_inr": 650,
+    "plain_english": "Standard blood test measuring hemoglobin, TLC, DLC, platelets, and ESR.",
+    "billing_alert": "Private hospital in-house labs often charge 3x to 5x of the CGHS/NABL ceiling."
+  },
+  {
+    "cghs_code": "CGHS-035",
+    "procedure_name": "Lipid Profile (Cholesterol, HDL, LDL, Triglycerides)",
+    "category": "Laboratory/Pathology",
+    "cghs_nabh_rate_inr": 230,
+    "cghs_non_nabh_rate_inr": 200,
+    "private_hospital_typical_rate_inr": 1200,
+    "plain_english": "Blood test checking heart health and cholesterol levels.",
+    "billing_alert": "Often billed at ₹1,000+ in private hospital packages."
+  },
+  {
+    "cghs_code": "CGHS-040",
+    "procedure_name": "Liver Function Test (LFT) / Bilirubin, SGOT, SGPT, Alk Phos",
+    "category": "Laboratory/Pathology",
+    "cghs_nabh_rate_inr": 260,
+    "cghs_non_nabh_rate_inr": 225,
+    "private_hospital_typical_rate_inr": 1400,
+    "plain_english": "Diagnostic panel evaluating liver health and enzyme levels.",
+    "billing_alert": "Individual enzymes are sometimes unbundled and billed separately."
+  },
+  {
+    "cghs_code": "CGHS-045",
+    "procedure_name": "Kidney Function Test (KFT) / Renal Profile (Urea, Creatinine, Electrolytes)",
+    "category": "Laboratory/Pathology",
+    "cghs_nabh_rate_inr": 260,
+    "cghs_non_nabh_rate_inr": 225,
+    "private_hospital_typical_rate_inr": 1350,
+    "plain_english": "Blood test measuring kidney performance and electrolytes.",
+    "billing_alert": "Essential baseline lab test."
+  },
+  {
+    "cghs_code": "CGHS-050",
+    "procedure_name": "HbA1c (Glycosylated Hemoglobin)",
+    "category": "Laboratory/Pathology",
+    "cghs_nabh_rate_inr": 150,
+    "cghs_non_nabh_rate_inr": 130,
+    "private_hospital_typical_rate_inr": 750,
+    "plain_english": "3-month average blood glucose test for diabetes management.",
+    "billing_alert": "Standard outpatient test."
+  },
+  {
+    "cghs_code": "CGHS-110",
+    "procedure_name": "X-Ray Chest PA View",
+    "category": "Radiology & Imaging",
+    "cghs_nabh_rate_inr": 140,
+    "cghs_non_nabh_rate_inr": 120,
+    "private_hospital_typical_rate_inr": 800,
+    "plain_english": "Standard chest X-ray.",
+    "billing_alert": "Digital X-Ray film charges are legally included in this fee."
+  },
+  {
+    "cghs_code": "CGHS-120",
+    "procedure_name": "Ultrasound Whole Abdomen and Pelvis (USG)",
+    "category": "Radiology & Imaging",
+    "cghs_nabh_rate_inr": 500,
+    "cghs_non_nabh_rate_inr": 435,
+    "private_hospital_typical_rate_inr": 2200,
+    "plain_english": "Abdominal sonography scan.",
+    "billing_alert": "Private hospitals often bill Upper Abdomen and Pelvis separately (unbundling)."
+  },
+  {
+    "cghs_code": "CGHS-130",
+    "procedure_name": "CT Scan Head / Brain (Plain)",
+    "category": "Radiology & Imaging",
+    "cghs_nabh_rate_inr": 1100,
+    "cghs_non_nabh_rate_inr": 950,
+    "private_hospital_typical_rate_inr": 4500,
+    "plain_english": "Computed Tomography brain scan without contrast dye.",
+    "billing_alert": "Hospitals frequently inflate CT scan charges for emergency trauma admissions."
+  },
+  {
+    "cghs_code": "CGHS-140",
+    "procedure_name": "MRI Brain / Knee / Spine (Plain without Contrast)",
+    "category": "Radiology & Imaging",
+    "cghs_nabh_rate_inr": 2500,
+    "cghs_non_nabh_rate_inr": 2200,
+    "private_hospital_typical_rate_inr": 9500,
+    "plain_english": "Magnetic resonance imaging (MRI) scan of brain, knee, or lumbar spine.",
+    "billing_alert": "Private hospitals often charge ₹8,000 to ₹14,000, nearly 4x the CGHS benchmark."
+  },
+  {
+    "cghs_code": "CGHS-200",
+    "procedure_name": "Hemodialysis (Single Session)",
+    "category": "Nephrology",
+    "cghs_nabh_rate_inr": 1500,
+    "cghs_non_nabh_rate_inr": 1300,
+    "private_hospital_typical_rate_inr": 3500,
+    "plain_english": "Kidney dialysis session for removing toxins from the blood.",
+    "billing_alert": "CGHS rate includes dialyzer tubing and standard anticoagulant medication."
+  },
+  {
+    "cghs_code": "CGHS-300",
+    "procedure_name": "Normal Delivery (Vaginal Delivery Package)",
+    "category": "Maternity & Obstetrics",
+    "cghs_nabh_rate_inr": 12000,
+    "cghs_non_nabh_rate_inr": 10000,
+    "private_hospital_typical_rate_inr": 65000,
+    "plain_english": "Standard childbirth delivery package including labor room and obstetrician fees.",
+    "billing_alert": "Check for separate charges for baby pediatric assessment and nursery."
+  },
+  {
+    "cghs_code": "CGHS-301",
+    "procedure_name": "Caesarean Section (C-Section Delivery Package)",
+    "category": "Maternity & Obstetrics",
+    "cghs_nabh_rate_inr": 18000,
+    "cghs_non_nabh_rate_inr": 15000,
+    "private_hospital_typical_rate_inr": 110000,
+    "plain_english": "Surgical birth delivery package.",
+    "billing_alert": "Package should cover OT charges, surgeon fee, and standard post-op stay."
+  },
+  {
+    "cghs_code": "CGHS-400",
+    "procedure_name": "Cataract Surgery with Foldable IOL (Phacoemulsification, Single Eye)",
+    "category": "Ophthalmology",
+    "cghs_nabh_rate_inr": 14000,
+    "cghs_non_nabh_rate_inr": 12000,
+    "private_hospital_typical_rate_inr": 45000,
+    "plain_english": "Eye lens replacement surgery for cataract removal.",
+    "billing_alert": "The CGHS package covers the surgery and standard hydrophilic/hydrophobic lens. Premium toric/multifocal lenses have additional approved copays."
+  },
+  {
+    "cghs_code": "CGHS-500",
+    "procedure_name": "Laparoscopic Cholecystectomy (Gallbladder Removal)",
+    "category": "General Surgery",
+    "cghs_nabh_rate_inr": 23000,
+    "cghs_non_nabh_rate_inr": 19500,
+    "private_hospital_typical_rate_inr": 95000,
+    "plain_english": "Keyhole surgery to remove infected or stone-filled gallbladder.",
+    "billing_alert": "Private hospitals often charge consumables, trocars, and harmonic scalpel tips separately."
+  },
+  {
+    "cghs_code": "CGHS-600",
+    "procedure_name": "Coronary Angiography (CAG)",
+    "category": "Cardiology",
+    "cghs_nabh_rate_inr": 7000,
+    "cghs_non_nabh_rate_inr": 6000,
+    "private_hospital_typical_rate_inr": 22000,
+    "plain_english": "Diagnostic catheter test checking blood flow through heart arteries.",
+    "billing_alert": "Contrast dye and catheter charges are included in standard packages."
+  },
+  {
+    "cghs_code": "CGHS-601",
+    "procedure_name": "Coronary Angioplasty (PTCA with 1 Drug-Eluting Stent, Package)",
+    "category": "Cardiology",
+    "cghs_nabh_rate_inr": 65000,
+    "cghs_non_nabh_rate_inr": 55000,
+    "private_hospital_typical_rate_inr": 220000,
+    "plain_english": "Heart stent insertion to open blocked cardiac blood vessels.",
+    "billing_alert": "NPPA (National Pharmaceutical Pricing Authority) legally caps DES stents at approx ₹38,000 + GST. Hospitals cannot charge more for the stent itself."
+  },
+  {
+    "cghs_code": "CGHS-610",
+    "procedure_name": "Coronary Artery Bypass Graft (CABG / Open Heart Bypass Surgery)",
+    "category": "Cardiology",
+    "cghs_nabh_rate_inr": 140000,
+    "cghs_non_nabh_rate_inr": 125000,
+    "private_hospital_typical_rate_inr": 450000,
+    "plain_english": "Heart bypass surgery for severe multi-vessel blockages.",
+    "billing_alert": "Package includes pre-op workup, surgical team fees, ICU care (up to 3 days), and ward stay."
+  },
+  {
+    "cghs_code": "CGHS-700",
+    "procedure_name": "Total Knee Replacement (TKR - Unilateral, Single Knee)",
+    "category": "Orthopaedics",
+    "cghs_nabh_rate_inr": 90000,
+    "cghs_non_nabh_rate_inr": 80000,
+    "private_hospital_typical_rate_inr": 275000,
+    "plain_english": "Knee joint replacement surgery using a titanium/cobalt-chromium implant.",
+    "billing_alert": "Implant prices are strictly capped by NPPA. Verify that the hospital does not inflate implant costs under separate consumable heads."
+  }
+]

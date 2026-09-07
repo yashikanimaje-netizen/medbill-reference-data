@@ -1,0 +1,16 @@
+[
+  { "code": "0450", "category": "Emergency Room", "description": "General Emergency Room facility fee" },
+  { "code": "0451", "category": "Emergency Room", "description": "Emergency Room - EMTALA emergency medical screening" },
+  { "code": "0456", "category": "Emergency Room", "description": "Emergency Room - Urgent care center visit" },
+  { "code": "0250", "category": "Pharmacy", "description": "General hospital inpatient/outpatient pharmacy medications" },
+  { "code": "0258", "category": "Pharmacy", "description": "IV Solutions / sterile saline / hydration" },
+  { "code": "0270", "category": "Medical/Surgical Supplies", "description": "General medical supplies and dressings" },
+  { "code": "0272", "category": "Medical/Surgical Supplies", "description": "Sterile supplies (bandages, tubing, surgical kits)" },
+  { "code": "0300", "category": "Laboratory", "description": "General clinical laboratory diagnostic testing" },
+  { "code": "0320", "category": "Radiology", "description": "Diagnostic X-ray and imaging" },
+  { "code": "0350", "category": "CT Scan", "description": "Computed Tomography (CT) scan facility charge" },
+  { "code": "0360", "category": "Operating Room", "description": "General Operating Room services" },
+  { "code": "0370", "category": "Anesthesia", "description": "General anesthesia equipment and facility service" },
+  { "code": "0730", "category": "EKG/ECG", "description": "Electrocardiogram monitoring services" },
+  { "code": "0762", "category": "Observation Room", "description": "Outpatient observation bed care (hours-based)" }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "id": "star_health",
+    "name": "Star Health and Allied Insurance",
+    "type": "Standalone Health Insurer",
+    "irdai_reg_no": "129",
+    "toll_free": "1800-425-2255",
+    "cashless_email": "support@starhealth.in",
+    "grievance_portal": "https://www.starhealth.in/grievance-redressal",
+    "common_network": "14,000+ Hospitals across India"
+  },
+  {
+    "id": "hdfc_ergo",
+    "name": "HDFC ERGO General Insurance",
+    "type": "General Insurer",
+    "irdai_reg_no": "146",
+    "toll_free": "022-6234-6234",
+    "cashless_email": "care@hdfcergo.com",
+    "grievance_portal": "https://www.hdfcergo.com/customer-care/grievances",
+    "common_network": "12,000+ Hospitals"
+  },
+  {
+    "id": "care_health",
+    "name": "Care Health Insurance (formerly Religare)",
+    "type": "Standalone Health Insurer",
+    "irdai_reg_no": "148",
+    "toll_free": "1800-102-4488",
+    "cashless_email": "customerfirst@careinsurance.com",
+    "grievance_portal": "https://www.careinsurance.com/grievance-redressal.html",
+    "common_network": "19,000+ Hospitals"
+  },
+  {
+    "id": "icici_lombard",
+    "name": "ICICI Lombard General Insurance",
+    "type": "General Insurer",
+    "irdai_reg_no": "115",
+    "toll_free": "1800-2666",
+    "cashless_email": "customersupport@icicilombard.com",
+    "grievance_portal": "https://www.icicilombard.com/grievance-redressal",
+    "common_network": "10,000+ Hospitals"
+  },
+  {
+    "id": "niva_bupa",
+    "name": "Niva Bupa Health Insurance (formerly Max Bupa)",
+    "type": "Standalone Health Insurer",
+    "irdai_reg_no": "145",
+    "toll_free": "1860-500-8888",
+    "cashless_email": "customercare@nivabupa.com",
+    "grievance_portal": "https://www.nivabupa.com/customer-service/grievance-redressal.html",
+    "common_network": "10,000+ Hospitals"
+  },
+  {
+    "id": "new_india",
+    "name": "The New India Assurance Company (Public Sector / GIPSA)",
+    "type": "Public Sector Insurer",
+    "irdai_reg_no": "190",
+    "toll_free": "1800-209-1415",
+    "cashless_email": "tech.support@newindia.co.in",
+    "grievance_portal": "https://www.newindia.co.in/grievance",
+    "common_network": "All GIPSA PPN Network Hospitals"
+  },
+  {
+    "id": "medi_assist_tpa",
+    "name": "Medi Assist Insurance TPA Pvt Ltd",
+    "type": "Third Party Administrator (TPA)",
+    "irdai_reg_no": "003",
+    "toll_free": "1800-425-9449",
+    "cashless_email": "info@mediassist.in",
+    "grievance_portal": "https://www.mediassist.in/grievance/",
+    "common_network": "Largest TPA network in India"
+  },
+  {
+    "id": "vidal_health_tpa",
+    "name": "Vidal Health Insurance TPA",
+    "type": "Third Party Administrator (TPA)",
+    "irdai_reg_no": "016",
+    "toll_free": "1800-425-8885",
+    "cashless_email": "customerservice@vidalhealthtpa.com",
+    "grievance_portal": "https://www.vidalhealthtpa.com/",
+    "common_network": "11,000+ Hospitals"
+  },
+  {
+    "id": "paramount_tpa",
+    "name": "Paramount Health Services & Insurance TPA",
+    "type": "Third Party Administrator (TPA)",
+    "irdai_reg_no": "006",
+    "toll_free": "022-6662-0808",
+    "cashless_email": "contact@paramounttpa.com",
+    "grievance_portal": "https://www.paramounttpa.com/Home/Grievance.aspx",
+    "common_network": "Leading Corporate & Retail TPA"
+  },
+  {
+    "id": "irdai_bima_bharosa",
+    "name": "IRDAI Bima Bharosa (National Insurance Grievance Portal)",
+    "type": "Regulatory Escalation Body",
+    "irdai_reg_no": "GOVT-IRDAI",
+    "toll_free": "155255 / 1800-4254-732",
+    "cashless_email": "complaints@irdai.gov.in",
+    "grievance_portal": "https://bimabharosa.irdai.gov.in/",
+    "common_network": "Official statutory forum for escalating rejected or unfairly deducted claims"
+  }
+]

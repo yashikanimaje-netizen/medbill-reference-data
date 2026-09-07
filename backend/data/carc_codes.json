@@ -1,0 +1,74 @@
+[
+  {
+    "code": "1",
+    "group_prefix": "PR",
+    "title": "Deductible Amount",
+    "official_definition": "Deductible Amount.",
+    "plain_english_summary": "You are being billed this amount because you have not reached your annual insurance deductible yet.",
+    "patient_action_tip": "Log into your health insurance portal to confirm your deductible balance on the date of service.",
+    "is_balance_bill_alert": false
+  },
+  {
+    "code": "2",
+    "group_prefix": "PR",
+    "title": "Coinsurance Amount",
+    "official_definition": "Coinsurance Amount.",
+    "plain_english_summary": "Your insurance plan paid their contracted percentage (e.g., 80%), and this is your required patient share (e.g., 20%).",
+    "patient_action_tip": "Verify that your plan's coinsurance percentage matches what is billed on your EOB.",
+    "is_balance_bill_alert": false
+  },
+  {
+    "code": "3",
+    "group_prefix": "PR",
+    "title": "Copayment Amount",
+    "official_definition": "Co-payment Amount.",
+    "plain_english_summary": "The fixed dollar amount (e.g., $25 or $50) your plan requires for this type of visit or service.",
+    "patient_action_tip": "Make sure you were not already charged this copay at check-in.",
+    "is_balance_bill_alert": false
+  },
+  {
+    "code": "45",
+    "group_prefix": "CO",
+    "title": "Charge exceeds fee schedule / maximum allowable amount",
+    "official_definition": "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement.",
+    "plain_english_summary": "The hospital billed more than the maximum amount permitted by their contract with your insurer. The hospital must write off this difference.",
+    "patient_action_tip": "DO NOT PAY THIS AMOUNT. In-network healthcare providers are legally forbidden from balance billing you for this write-off.",
+    "is_balance_bill_alert": true
+  },
+  {
+    "code": "96",
+    "group_prefix": "PR",
+    "title": "Non-covered charge(s)",
+    "official_definition": "Non-covered charge(s). At least one Remark Code must be provided.",
+    "plain_english_summary": "Your health plan denied coverage because this procedure, drug, or supply is excluded from your policy benefits.",
+    "patient_action_tip": "Ask your doctor's office to request a peer-to-peer review or submit an appeal showing medical necessity.",
+    "is_balance_bill_alert": false
+  },
+  {
+    "code": "97",
+    "group_prefix": "CO",
+    "title": "The benefit for this service is included in the payment for another service",
+    "official_definition": "The benefit for this service is included in the payment/allowance for another service/procedure that has already been adjudicated.",
+    "plain_english_summary": "This is unbundling or an inclusive service. The insurer considers this step part of the primary procedure and won't pay separately.",
+    "patient_action_tip": "The provider cannot pass this fee to you if they are in-network. Verify that the provider wrote it off.",
+    "is_balance_bill_alert": true
+  },
+  {
+    "code": "197",
+    "group_prefix": "PR",
+    "title": "Precertification/authorization/notification absent",
+    "official_definition": "Precertification/authorization/notification/pre-treatment absent.",
+    "plain_english_summary": "Prior authorization was required from your insurer before this service was performed, but none was obtained.",
+    "patient_action_tip": "If the doctor was in-network, obtaining prior auth is usually the provider's contractual responsibility, not yours. Dispute this with billing.",
+    "is_balance_bill_alert": true
+  },
+  {
+    "code": "253",
+    "group_prefix": "PR",
+    "title": "Assessment of injury/illness is pending investigation of third party liability",
+    "official_definition": "Sequestration - reduction in federal payment amount, or third party liability investigation.",
+    "plain_english_summary": "The insurance company paused payment to see if another insurer (auto insurance, worker's comp) is responsible.",
+    "patient_action_tip": "Call your insurer immediately to complete their simple accident/injury questionnaire so they can release payment.",
+    "is_balance_bill_alert": false
+  }
+]

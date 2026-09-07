@@ -1,0 +1,82 @@
+[
+  {
+    "drug_code": "NPPA-MED-001",
+    "generic_name": "Paracetamol IV Infusion",
+    "strength": "10 mg/ml (100 ml bottle)",
+    "category": "Analgesic / Antipyretic",
+    "nppa_ceiling_price_inr": 40.50,
+    "hospital_typical_mrp_inr": 250.00,
+    "usage": "Intravenous pain and fever relief post-surgery or during acute illness.",
+    "billing_alert": "Hospitals frequently bill ₹200 to ₹350 for Paracetamol IV. NPPA ceiling is ~₹40.50 + GST."
+  },
+  {
+    "drug_code": "NPPA-MED-002",
+    "generic_name": "Pantoprazole Injection (IV)",
+    "strength": "40 mg vial",
+    "category": "Gastrointestinal / Antacid",
+    "nppa_ceiling_price_inr": 53.20,
+    "hospital_typical_mrp_inr": 280.00,
+    "usage": "Prevents stress ulcers and acidity in admitted patients.",
+    "billing_alert": "Administered to almost every admitted patient daily; hospitals inflate price up to 5x."
+  },
+  {
+    "drug_code": "NPPA-MED-003",
+    "generic_name": "Ceftriaxone Injection",
+    "strength": "1 gm vial",
+    "category": "Antibiotic",
+    "nppa_ceiling_price_inr": 62.80,
+    "hospital_typical_mrp_inr": 350.00,
+    "usage": "Broad-spectrum antibiotic for bacterial infections, pneumonia, and surgical prophylaxis.",
+    "billing_alert": "Commonly billed with separate reconstitution and syringe charges."
+  },
+  {
+    "drug_code": "NPPA-MED-004",
+    "generic_name": "Meropenem Injection",
+    "strength": "1 gm vial",
+    "category": "Critical Care Antibiotic",
+    "nppa_ceiling_price_inr": 920.00,
+    "hospital_typical_mrp_inr": 3200.00,
+    "usage": "Heavy-duty antibiotic used in ICU for severe sepsis or resistant infections.",
+    "billing_alert": "High-value injection given multiple times a day; check that doses billed match the nurse administration chart."
+  },
+  {
+    "drug_code": "NPPA-MED-005",
+    "generic_name": "Enoxaparin Injection (Low Molecular Weight Heparin)",
+    "strength": "40 mg / 0.4 ml pre-filled syringe",
+    "category": "Anticoagulant / Blood Thinner",
+    "nppa_ceiling_price_inr": 440.00,
+    "hospital_typical_mrp_inr": 1100.00,
+    "usage": "Prevents blood clots (DVT) after major surgery or in immobile ICU patients.",
+    "billing_alert": "NPPA ceiling applies to branded pre-filled syringes."
+  },
+  {
+    "drug_code": "NPPA-MED-006",
+    "generic_name": "Normal Saline (Sodium Chloride 0.9%)",
+    "strength": "500 ml IV bottle",
+    "category": "IV Fluid / Hydration",
+    "nppa_ceiling_price_inr": 24.50,
+    "hospital_typical_mrp_inr": 120.00,
+    "usage": "Routine intravenous hydration and medication diluent.",
+    "billing_alert": "Hospitals often bill multiple bottles daily at ₹100-₹150 each plus separate IV set fees."
+  },
+  {
+    "drug_code": "NPPA-MED-007",
+    "generic_name": "Ondansetron Injection",
+    "strength": "2 mg/ml (2 ml ampoule)",
+    "category": "Anti-emetic / Anti-nausea",
+    "nppa_ceiling_price_inr": 12.80,
+    "hospital_typical_mrp_inr": 85.00,
+    "usage": "Prevents vomiting and nausea caused by surgery or chemotherapy.",
+    "billing_alert": "Very cheap generic drug frequently marked up 6x-7x on hospital invoices."
+  },
+  {
+    "drug_code": "NPPA-MED-008",
+    "generic_name": "Human Insulin (Regular)",
+    "strength": "40 IU/ml (10 ml vial)",
+    "category": "Antidiabetic",
+    "nppa_ceiling_price_inr": 155.00,
+    "hospital_typical_mrp_inr": 380.00,
+    "usage": "Controls high blood sugar in diabetic inpatients.",
+    "billing_alert": "Hospitals sometimes charge full vial price per single injection dose."
+  }
+]

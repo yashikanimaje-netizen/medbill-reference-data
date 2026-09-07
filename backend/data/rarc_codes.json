@@ -1,0 +1,27 @@
+[
+  {
+    "code": "M1",
+    "title": "X-ray not taken within specified time",
+    "plain_english_summary": "Imaging was not performed within the required timeframe mandated by payer guidelines."
+  },
+  {
+    "code": "M24",
+    "title": "Missing/incomplete/invalid number of miles traveled",
+    "plain_english_summary": "Ambulance mileage claim is missing or calculated incorrectly."
+  },
+  {
+    "code": "N130",
+    "title": "Consult plan benefit documents/guidelines for information about restrictions for this service",
+    "plain_english_summary": "This procedure has strict frequency or eligibility limitations under your specific plan document."
+  },
+  {
+    "code": "N381",
+    "title": "Consult our provider directory for in-network physicians",
+    "plain_english_summary": "The rendering physician was processed as out-of-network."
+  },
+  {
+    "code": "MA01",
+    "title": "Alert: If you do not agree with approved amounts and you cannot resolve with contractor, you may appeal",
+    "plain_english_summary": "Standard notification indicating you have the legal right to file a formal appeal within 180 days."
+  }
+]

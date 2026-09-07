@@ -1,0 +1,83 @@
+{
+  "search_procedures_knee": {
+    "query": "knee",
+    "total": 2,
+    "results": [
+      {
+        "code": "73721",
+        "codeType": "CPT",
+        "name": "MRI lower extremity other than joint without contrast (Knee/Leg)",
+        "plainEnglish": "Knee or lower leg MRI scan without IV contrast dye.",
+        "category": "Imaging",
+        "medicareRate": 242.10,
+        "fairPriceLow": 250.00,
+        "fairPriceAvg": 550.00,
+        "fairPriceHigh": 2800.00,
+        "notes": "Huge variation between independent imaging centers ($300-$500) vs hospital outpatient facilities ($2,000+)."
+      },
+      {
+        "code": "29881",
+        "codeType": "CPT",
+        "name": "Arthroscopy, knee, surgical; with meniscectomy",
+        "plainEnglish": "Minimally invasive knee scope surgery to trim or remove a torn meniscus.",
+        "category": "Surgery",
+        "medicareRate": 580.00,
+        "fairPriceLow": 1200.00,
+        "fairPriceAvg": 2800.00,
+        "fairPriceHigh": 9500.00,
+        "notes": "Surgeon fee only; ambulatory surgical center (ASC) fee or hospital facility fee is separate."
+      }
+    ]
+  },
+  "lookup_carc_45": {
+    "code": "45",
+    "groupPrefix": "CO",
+    "title": "Charge exceeds fee schedule / maximum allowable amount",
+    "officialDefinition": "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement.",
+    "plainEnglishSummary": "The hospital billed more than the maximum amount permitted by their contract with your insurer. The hospital must write off this difference.",
+    "patientActionTip": "DO NOT PAY THIS AMOUNT. In-network healthcare providers are legally forbidden from balance billing you for this write-off.",
+    "isBalanceBillAlert": true
+  },
+  "benchmark_bill_analysis": {
+    "billId": "demo-bill-001",
+    "totalBilled": 4250.00,
+    "totalMedicareAllowable": 375.30,
+    "totalFairMarketAvg": 735.00,
+    "potentialSavings": 3515.00,
+    "overallStatus": "EXTREME_MARKUP",
+    "lineItems": [
+      {
+        "code": "73721",
+        "name": "Knee MRI Scan",
+        "billedAmount": 2850.00,
+        "medicareBenchmark": 242.10,
+        "fairMarketAvg": 550.00,
+        "markupMultiplier": "11.7x Medicare",
+        "status": "EXTREME_MARKUP",
+        "flagReason": "Hospital billed 1,170% of the Medicare allowable rate for this MRI."
+      },
+      {
+        "code": "99284",
+        "name": "Emergency Room Visit Level 4",
+        "billedAmount": 1400.00,
+        "medicareBenchmark": 140.20,
+        "fairMarketAvg": 750.00,
+        "markupMultiplier": "9.9x Medicare",
+        "status": "ELEVATED",
+        "flagReason": "Facility charge exceeds typical regional benchmark."
+      }
+    ]
+  },
+  "provider_search_response": {
+    "count": 1,
+    "data": [
+      {
+        "npi": "1487654321",
+        "displayName": "Stanford Health Care",
+        "specialty": "General Acute Care Hospital",
+        "address": "300 Pasteur Dr, Stanford, CA 94305",
+        "phone": "650-723-4000"
+      }
+    ]
+  }
+}

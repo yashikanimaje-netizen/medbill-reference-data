@@ -1,0 +1,58 @@
+[
+  {
+    "id": "aetna",
+    "name": "Aetna",
+    "payer_id": "60054",
+    "plan_types": ["HMO", "PPO", "POS", "HDHP"],
+    "support_phone": "1-800-872-3862",
+    "dispute_portal_url": "https://www.aetna.com/individuals-families/member-rights-resources/appeals-complaints.html"
+  },
+  {
+    "id": "cigna",
+    "name": "Cigna Healthcare",
+    "payer_id": "62308",
+    "plan_types": ["HMO", "PPO", "EPO", "Open Access Plus"],
+    "support_phone": "1-800-997-1654",
+    "dispute_portal_url": "https://www.cigna.com/individuals-families/member-guide/appeals-and-grievances"
+  },
+  {
+    "id": "uhc",
+    "name": "UnitedHealthcare",
+    "payer_id": "87726",
+    "plan_types": ["HMO", "PPO", "Choice Plus", "HDHP"],
+    "support_phone": "1-877-842-3210",
+    "dispute_portal_url": "https://www.myuhc.com/member/appeals"
+  },
+  {
+    "id": "bcbs",
+    "name": "Blue Cross Blue Shield Association",
+    "payer_id": "00000",
+    "plan_types": ["PPO", "HMO", "BlueCard PPO", "Federal Employee Program (FEP)"],
+    "support_phone": "1-800-676-2583",
+    "dispute_portal_url": "https://www.bcbs.com/contact-us"
+  },
+  {
+    "id": "humana",
+    "name": "Humana",
+    "payer_id": "61101",
+    "plan_types": ["Medicare Advantage", "PPO", "HMO"],
+    "support_phone": "1-800-457-4708",
+    "dispute_portal_url": "https://www.humana.com/member/grievances-appeals"
+  },
+  {
+    "id": "kaiser",
+    "name": "Kaiser Permanente",
+    "payer_id": "94135",
+    "plan_types": ["HMO", "Deductible HMO"],
+    "support_phone": "1-800-464-4000",
+    "dispute_portal_url": "https://healthy.kaiserpermanente.org/support/appeals-grievances"
+  },
+  {
+    "id": "medicare",
+    "name": "Medicare (Original CMS Part A & B)",
+    "payer_id": "00400",
+    "plan_types": ["Part A (Hospital)", "Part B (Medical)"],
+    "support_phone": "1-800-633-4227",
+    "dispute_portal_url": "https://www.medicare.gov/claims-appeals/how-do-i-file-an-appeal"
+  }
+]
